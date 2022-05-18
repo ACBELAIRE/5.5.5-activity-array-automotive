@@ -9,7 +9,6 @@ console.log(v.make)
 //Add constructor.
 //Add the super keyword to call the parent class constructor.
 //Add the properties listed in the Property chart above.
-//Add the methods with pesudo logic listed in the Methods chart above.
  class mercurySedan extends Vehicle{
                                     constructor(make, model, year, color, mileage,passenger,numberOfWheels){
                                         super(make, model, year, color, mileage,passenger,numberOfWheels)
@@ -18,7 +17,7 @@ console.log(v.make)
                                         this.fuel = 10;
                                         this.scheduleService = false;
                                     }
-    //Add the methods with pesudo logic listed in the Methods chart above.
+    //Add the methods with pesudo logic listed in the Methods chart.
     //start with the method being pulled from the parent 
                                         start();
     //load passenger method ideology
